@@ -16,6 +16,12 @@ pipeline {
                 }
             }
         }
+        stage('Completed branch')
+        {
+            steps{
+                sh 'echo Bug Fixed'
+            }
+        }
         
     }
 }
