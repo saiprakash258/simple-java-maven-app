@@ -16,11 +16,6 @@ pipeline {
                 }
             }
         }
-        stage('Completed')
-        {
-             steps {
-                 sh 'echo Completed'
-             }
-        }
+        
     }
 }
